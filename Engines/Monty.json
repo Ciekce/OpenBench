@@ -28,7 +28,7 @@
         },
 
         "LTC" : {
-            "both_options"      : "Threads=1 Hash=196",
+            "both_options"      : "Threads=1 Hash=128",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8
         },
@@ -56,7 +56,7 @@
         },
 
         "LTC progtest" : {
-            "both_options"      : "Threads=1 Hash=196",
+            "both_options"      : "Threads=1 Hash=128",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8,
             "book_name"         : "8moves_v3.epd",
