@@ -49,7 +49,7 @@
         "25k nodes" : {
             "both_options"      : "Threads=1 Hash=16",
             "both_time_control" : "N=25000",
-            "workload_size"     : 128,
+            "workload_size"     : 128
         },
 
         "25k nodes regression" : {
