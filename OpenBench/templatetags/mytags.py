@@ -368,6 +368,9 @@ def test_is_time_odds(test):
 def test_is_fischer(test):
     return 'FRC' in test.book_name.upper() or '960' in test.book_name.upper()
 
+def test_is_shogi(test):
+    return 'SHOGI' in test.book_name.upper()
+
 
 register.filter('spsa_param_digest', spsa_param_digest)
 register.filter('spsa_param_digest_headers', spsa_param_digest_headers)
@@ -385,6 +388,7 @@ register.filter('git_diff_text', git_diff_text)
 register.filter('test_is_smp_odds'  , test_is_smp_odds  )
 register.filter('test_is_time_odds' , test_is_time_odds )
 register.filter('test_is_fischer'   , test_is_fischer   )
+register.filter('test_is_shogi'     , test_is_shogi     )
 
 
 @register.filter

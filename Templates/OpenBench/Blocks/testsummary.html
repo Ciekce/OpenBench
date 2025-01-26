@@ -5,6 +5,7 @@
     <a href="{{test|workload_url}}">{{test|prettyDevName}}</a>
     {% if test.error %} <span style="color: red; cursor: pointer" title="Crash or illegal move">*</span> {% endif %}
     {% if test|test_is_fischer %} <span style="color: green; cursor: pointer" title="Fischer random chess">*</span> {% endif %}
+    {% if test|test_is_shogi %} <span style="color: purple; cursor: pointer" title="Shogi">*</span> {% endif %}
 </td>
 <td class="textcenter"><a href="{{test|gitDiffLink}}">diff</a></td>
 <td>

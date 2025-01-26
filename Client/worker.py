@@ -387,7 +387,8 @@ class Cutechess:
         # Assume Fischer if FRC, 960, or FISCHER appears in the Opening Book
         book_name = config.workload['test']['book']['name'].upper()
         is_frc    = 'FRC' in book_name or '960' in book_name or 'FISCHER' in book_name
-        variant   = ['standard', 'fischerandom'][is_frc]
+        is_shogi  = 'SHOGI' in book_name
+        variant   = 'fischerandom' if is_frc else 'shogi' if is_shogi else 'standard'
 
         # Only include -repeat if not skipping the reverses in DATAGEN
         is_datagen = config.workload['test']['type'] == 'DATAGEN'
