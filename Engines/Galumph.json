@@ -1,11 +1,11 @@
 {
     "private" : false,
-    "nps"     : 850653,
-    "source"  : "https://github.com/archishou/MidnightChessEngine",
+    "nps"     : 6199324,
+    "source"  : "https://github.com/spamdrew128/Galumph",
 
     "build" : {
         "path"      : "",
-        "compilers" : ["clang++", "g++"],
+        "compilers" : ["cargo>=1.70.0"],
         "cpuflags"  : [],
         "systems"   : ["Linux", "Windows", "Darwin"]
     },
@@ -13,12 +13,12 @@
     "test_presets" : {
 
         "default" : {
-            "base_branch"     : "master",
-            "book_name"       : "Pohl.epd",
+            "base_branch"     : "dev",
+            "book_name"       : "noob_4moves.epd",
             "test_bounds"     : "[0.00, 5.00]",
             "test_confidence" : "[0.05, 0.05]",
-            "win_adj"         : "movecount=3 score=400",
-            "draw_adj"        : "movenumber=40 movecount=8 score=10"
+            "win_adj"         : "None",
+            "draw_adj"        : "None"
         },
 
         "STC" : {
@@ -67,9 +67,9 @@
     "tune_presets" : {
 
         "default" : {
-            "book_name" : "Pohl.epd",
-            "win_adj"   : "movecount=3 score=400",
-            "draw_adj"  : "movenumber=40 movecount=8 score=10"
+            "book_name" : "noob_4moves.epd",
+            "win_adj"   : "None",
+            "draw_adj"  : "None"
         }
     },
 
