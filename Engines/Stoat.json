@@ -21,53 +21,53 @@
         },
 
         "STC" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 CuteChessWorkaround=true",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32
         },
 
         "LTC" : {
-            "both_options"      : "Threads=1 Hash=128",
+            "both_options"      : "Threads=1 Hash=128 CuteChessWorkaround=true",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8
         },
 
         "STC regression" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 CuteChessWorkaround=true",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32,
             "test_bounds"       : "[-5.00, 0.00]"
         },
 
         "LTC regression" : {
-            "both_options"      : "Threads=1 Hash=128",
+            "both_options"      : "Threads=1 Hash=128 CuteChessWorkaround=true",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8,
             "test_bounds"       : "[-5.00, 0.00]"
         },
 
         "25k nodes" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 CuteChessWorkaround=true",
             "both_time_control" : "N=25000",
             "workload_size"     : 128
         },
 
         "25k nodes regression" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 CuteChessWorkaround=true",
             "both_time_control" : "N=25000",
             "workload_size"     : 128,
             "test_bounds"       : "[-5.00, 0.00]"
         },
 
         "STC progtest" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 CuteChessWorkaround=true",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32,
             "test_max_games"    : 3000
         },
 
         "LTC progtest" : {
-            "both_options"      : "Threads=1 Hash=128",
+            "both_options"      : "Threads=1 Hash=128 CuteChessWorkaround=true",
             "both_time_control" : "60.0+0.6",
             "workload_size"     : 8,
             "test_max_games"    : 1000
