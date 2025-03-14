@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 4000000,
+    "nps"     : 1300000,
     "source"  : "https://github.com/Ciekce/Stoat",
 
     "build" : {
