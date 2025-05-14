@@ -6,7 +6,7 @@
     "build" : {
         "path"      : "",
         "compilers" : ["cargo>=1.70.0"],
-        "cpuflags"  : [],
+        "cpuflags"  : ["FMA"],
         "systems"   : ["Linux", "Windows", "Darwin"]
     },
 
