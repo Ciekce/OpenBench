@@ -13,7 +13,7 @@
     "test_presets" : {
         "default" : {
             "base_branch"     : "main",
-            "book_name"       : "UHO_Lichess_4852_v1.epd",
+            "book_name"       : "DFRC_4852_v1.epd",
             "test_bounds"     : "[0.00, 3.00]",
             "test_confidence" : "[0.10, 0.05]",
             "win_adj"         : "movecount=3 score=400",
@@ -79,7 +79,7 @@
 
     "tune_presets" : {
         "default" : {
-            "book_name" : "UHO_Lichess_4852_v1.epd",
+            "book_name" : "DFRC_4852_v1.epd",
             "win_adj"   : "movecount=3 score=400",
             "draw_adj"  : "movenumber=40 movecount=8 score=10"
         }
