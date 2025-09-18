@@ -22,7 +22,8 @@
         "UHO_4060_vT.epd",
         "UHO_Lichess_4852_v1.epd",
         "DFRC_4852_v1.epd",
-        "4moves_v1_shogi.epd"
+        "4moves_v1_shogi.epd",
+        "6moves_v1_shogi.epd"
     ],
 
     "engines" : [
