@@ -21,40 +21,39 @@
         },
 
         "STC" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 Minimal=true",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32
         },
 
         "LTC" : {
-            "both_options"      : "Threads=1 Hash=128",
+            "both_options"      : "Threads=1 Hash=128 Minimal=true",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8
         },
 
         "STC regression" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 Minimal=true",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32,
             "test_bounds"       : "[-3.00, 1.00]"
         },
 
         "LTC regression" : {
-            "both_options"      : "Threads=1 Hash=128",
+            "both_options"      : "Threads=1 Hash=128 Minimal=true",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8,
             "test_bounds"       : "[-3.00, 1.00]"
         },
 
         "25k nodes" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 Minimal=true",
             "both_time_control" : "N=25000",
             "workload_size"     : 128,
-            "test_bounds"       : "[0.00, 3.00]"
         },
 
         "25k nodes regression" : {
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 Minimal=true",
             "both_time_control" : "N=25000",
             "workload_size"     : 128,
             "test_bounds"       : "[-3.00, 1.00]"
@@ -63,7 +62,7 @@
         "STC progtest" : {
             "dev_branch"        : "main",
             "base_branch"       : "v7.0.0",
-            "both_options"      : "Threads=1 Hash=16",
+            "both_options"      : "Threads=1 Hash=16 Minimal=true",
             "both_time_control" : "8.0+0.08",
             "workload_size"     : 32,
             "book_name"         : "DFRC_4852_v1.epd",
@@ -73,7 +72,7 @@
         "LTC progtest" : {
             "dev_branch"        : "main",
             "base_branch"       : "v7.0.0",
-            "both_options"      : "Threads=1 Hash=128",
+            "both_options"      : "Threads=1 Hash=128 Minimal=true",
             "both_time_control" : "60.0+0.6",
             "workload_size"     : 8,
             "book_name"         : "DFRC_4852_v1.epd",
